@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    flex-wrap: wrap;
+}
+.title-website{
+    margin: 35px 0;
+    text-align: center;
+}
+.nav-header{
+    display: flex;
+    flex-direction: row;
+    max-height: 89px ;
+    justify-content: space-between;
+    align-items: center;
+    background:#F9EFCF;
+   
+}
+.logo-img img{
+    height: 83px;
+    object-fit: cover;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.search-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 21px;
+    text-indent: 20px;
+    margin-right: 30px;
+}
